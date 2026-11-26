@@ -1,5 +1,7 @@
 import os
 
+# Self-checkout one-liner: the text is emitted verbatim, no trailing newline.
+
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
